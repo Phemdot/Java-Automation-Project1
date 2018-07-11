@@ -49,5 +49,5 @@ Feature: Login
 
       Examples:
       | username | password |
-      |dejiuser | dejipass |
-      | dejavu | dejipass2 |
+      |femiuser | femipass |
+      | femipass | femipass2 |

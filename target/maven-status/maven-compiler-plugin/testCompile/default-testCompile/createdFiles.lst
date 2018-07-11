@@ -1,0 +1,4 @@
+stepdefinition\RegistrationSteps.class
+stepdefinition\Wishlist.class
+stepdefinition\Login.class
+runner\TestRunner.class
