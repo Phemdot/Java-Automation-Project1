@@ -6,12 +6,19 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Login {
 
     @Given("^that I navigate to dev\\.giftrete\\.com$")
     public void that_I_navigate_to_dev_giftrete_com() {
 
+        System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\geckodriver\\geckodriver.exe");
+
+
+        WebDriver driver = new FirefoxDriver();
+        String appUrl = "http://www.giftrete.com";
+        driver.get(appUrl);
     }
 
     @When("^I click on login$")
