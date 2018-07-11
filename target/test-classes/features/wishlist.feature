@@ -3,7 +3,7 @@ Feature: Wishlist
   So that I can place order on the items later
 
 
-  Scenerio: Create wishlist for myself
+  Scenario: Create wishlist for myself
     Given that I am logged in to giftrete site
     And I click on wishlist
     And select myself
