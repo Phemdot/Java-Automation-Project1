@@ -17,8 +17,8 @@ public class Wishlist {
 
     }
 
-    @Given("^select a friend$")
-    public void select_a_friend() throws Throwable {
+    @Given("^select myself$")
+    public void select_myself() throws Throwable {
 
     }
 
@@ -29,6 +29,16 @@ public class Wishlist {
 
     @When("^I click on save$")
     public void i_click_on_save() throws Throwable {
+
+    }
+
+    @Then("^a wishlist should be created for me$")
+    public void a_wishlist_should_be_created_for_me() throws Throwable {
+
+    }
+
+    @Given("^select a friend$")
+    public void select_a_friend() throws Throwable {
 
     }
 
